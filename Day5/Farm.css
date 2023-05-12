@@ -1,20 +1,27 @@
-.Container{
+.container{
+    font-family:"Poppins";
 
 }
 .top{
     height: 100px;
-    background-color: bisque;
     flex-direction: row;
     display: flex;
-    
+    justify-content: space-between;
+    padding: 5% 20px 20px 2%;
+    font-size: 30PX;
+    font-weight: bold;
 }
 .mid{
-    height: 500px;
-    background-color: yellow;
+    height: 512px;
+    background-color: #C1DCDC;
     scroll-behavior: auto;
     overflow-y: hidden;
     overflow-x: hidden;
+    border-radius: 50px;
+    margin-left: 96px;
+    margin-right: 96px;
 }
+
 .bottom{
     height: 200px;
     background-color:bisque;
@@ -24,3 +31,51 @@
     height: 200px;
     background-color:rgb(151, 244, 229);
 }
+.icon{
+    height: 200px;
+    width: 200px;
+}
+.header{
+    margin-right: 50px;
+}
+.h1{
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 80px;
+    font-weight: 800px;
+    font-style: normal;
+
+}
+.search-input {
+    border-radius: 12px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .search-input:focus {
+    border-color: #56c9c9;
+    box-shadow: 0 0 8px 0 #6deaea;
+  }
+  .input-with-icon {
+    margin: 12px auto;
+    position: relative;
+    width: 450px;
+    height: 64px;
+  }
+  .search-icon {
+    padding: 14px;
+    margin: 8px;
+    right: 0;
+    background-color: #C1DCDC;
+    border-radius: 12px;
+    position: absolute;
+  }
+  .line{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
