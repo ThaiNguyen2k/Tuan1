@@ -1,0 +1,26 @@
+.Container{
+
+}
+.top{
+    height: 100px;
+    background-color: bisque;
+    flex-direction: row;
+    display: flex;
+    
+}
+.mid{
+    height: 500px;
+    background-color: yellow;
+    scroll-behavior: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.bottom{
+    height: 200px;
+    background-color:bisque;
+
+}
+.about{
+    height: 200px;
+    background-color:rgb(151, 244, 229);
+}
